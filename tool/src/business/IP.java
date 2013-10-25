@@ -5,7 +5,7 @@ import java.net.UnknownHostException;
 
 import javax.servlet.http.HttpServletRequest;
 
-public class IP {
+public class IP { 
 	public static String getIpAddr(HttpServletRequest request) {
 		String ipAddress = null;
 		ipAddress = request.getHeader("x-forwarded-for");
