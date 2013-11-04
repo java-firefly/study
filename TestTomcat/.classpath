@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="com.genuitec.eclipse.j2eedt.core.J2EE14_CONTAINER"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-beanutils.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-collections.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-daemon.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-digester.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-modeler.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/jaas.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/jakarta-regexp-1.2.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/jcert.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/jnet.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/jsse.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/mx4j.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/naming-common.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/naming-factory.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/naming-resources.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/servlet.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/tomcat-util.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/xercesImpl.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/xmlParserAPIs.jar"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>
