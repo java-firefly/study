@@ -1,0 +1,2 @@
+--重命名表名
+alter table BIZ_SECOND_REVIEW_LIMITS rename to BIZ_PRIZE_REVIEW_LIMITS;
