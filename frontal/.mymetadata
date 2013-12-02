@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="frontal"
+  id="myeclipse.1385968890750"
+  context-root="/frontal"
+  j2ee-spec="1.4"
+  archive="frontal.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
