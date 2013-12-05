@@ -12,7 +12,7 @@ public class Test {
 		}
 	}
 	public static void main(String[] args) {
-		initLights(lights);
+		/*initLights(lights);
 		for(int i=1; i <=100; i++){
 			for(int j=1; j <=100; j++){
 				if(j%i==0){
@@ -24,7 +24,8 @@ public class Test {
 				}
 			}
 		}
-		display(lights);
+		display(lights);*/
+		System.out.println("张志永".equals("张志永"));
 	}
 	private static void display(Map<Integer, Boolean> lights){
 		for(int i = 1; i <=100; i++){
