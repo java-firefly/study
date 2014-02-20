@@ -6,6 +6,7 @@ import io.Out;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
+import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.List;
@@ -30,6 +31,8 @@ public class JDBC {
 			Connection con = DriverManager.getConnection(dbUrl,username,password);
 			Statement ps = con.createStatement();
 			ResultSet set = ps.executeQuery(sql);
+			ResultSetMetaData setMetaData = set.getMetaData();
+			setMetaData.getColumnName(1);
 			while(set.next()){
 				String str1 = set.getString(1);
 				String str2 = set.getString(2);
@@ -77,7 +80,9 @@ public class JDBC {
 	}
 	public static void main(String[] args) {
 		//String sql = "SELECT ID,DISPLAYNAME FROM CFG_OBJECT_META WHERE VALIDFLAG='1' AND DISPLAYTYPE='LIST' AND SEARCHFLAG IN('1','2');";
-		new JDBC().getAllResultOfSqls();
+		//new JDBC().getAllResultOfSqls();
 		//new JDBC().getSql();
+		JDBC jdbc = new JDBC();
+		jdbc.getResultBySql("select id,name from s_project");
 	}
 }
