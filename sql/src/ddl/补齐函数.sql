@@ -1,0 +1,1 @@
+select lpad(1,3,'0') from dual

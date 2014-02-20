@@ -7,6 +7,9 @@ from dba_data_files
 order by tablespace_name; 
 */ 
 
+---删除用户
+---drop user pro30016 cascade 
+
 create tablespace KY_DATA datafile '放置表空间的位置/KY_DATA.dbf' size 500M autoextend on next 50M maxsize unlimited logging extent management local segment space management auto; 
 
 create temporary tablespace KY_TEMP tempfile '放置表空间的位置/KY_DATA.dbf' size 50M autoextend on next 5M maxsize unlimited extent management local uniform size 1M; 
