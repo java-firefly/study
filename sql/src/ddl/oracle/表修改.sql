@@ -5,6 +5,10 @@ rename test to test_new;
 --修改表字段
 alter table S_PAPER_EMBODY alter column AFFACTED_GENE decimal(9, 4) NOT NULL;
 
+----修改字段类型
+
+
+alter table S_PAPER_EMBODY modify AFFACTED_GENE decimal(9, 4) NOT NULL;
 --添加表字段
 alter table BIZ_CFG_FORM add(PROMPT varchar2(255));
 
